@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting up done & test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser & getting app ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser &  app is up & running]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-06T10:53:15Z" name="Suite" finished-at="2022-08-06T10:53:55Z" duration-ms="39785">
+    <groups>
+    </groups>
+    <test started-at="2022-08-06T10:53:15Z" name="Test" finished-at="2022-08-06T10:53:55Z" duration-ms="39785">
+      <class name="com.automation.testcases.LoginTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:14Z" name="setUpSuite" finished-at="2022-08-06T16:23:15Z" duration-ms="1205" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting up done & test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:15Z" name="setup" finished-at="2022-08-06T16:23:25Z" duration-ms="9912" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser & getting app ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser &  app is up & running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApp1()[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:25Z" name="loginApp1" finished-at="2022-08-06T16:23:25Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp1 -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:25Z" name="tearDownMethod" finished-at="2022-08-06T16:23:26Z" duration-ms="650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTest.loginApp1()[pri:0, instance:com.automation.testcases.LoginTest@771a660] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="loginApp()[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:26Z" name="loginApp" finished-at="2022-08-06T16:23:54Z" duration-ms="28282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:54Z" name="tearDownMethod" finished-at="2022-08-06T16:23:54Z" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:0, instance:com.automation.testcases.LoginTest@771a660] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginTest@771a660]" started-at="2022-08-06T16:23:54Z" name="tearDown" finished-at="2022-08-06T16:23:55Z" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
